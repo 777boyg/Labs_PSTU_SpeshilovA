@@ -7,15 +7,11 @@ using namespace std;
 int main() {
     setlocale(LC_ALL, ".65001");
 
-    int n;
-    cout << "Введите размер массива: ";
-    cin >> n;
+    int c = 5*2;
+    int a[5];
+    int s = 5;
 
-    int c = n*2;
-    int* a = new int[c];
-    int s = n;
-
-    for (int i = 0; i < n; i++) 
+    for (int i = 0; i < s; i++) 
         a[i] = rand() % 41 - 20; 
     
 
